@@ -1,0 +1,47 @@
+
+
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Gradiente de fondo */
+    color: #333; /* Color de texto principal */
+}
+
+/* Estilos del encabezado */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo del menú semi-transparente */
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+}
+
+.navbar-dark {
+    background-color: rgba(34, 34, 34, 0.9);
+}
+
+.navbar-dark .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Estilos de la sección de inicio */
+#inicio {
+    padding-top: 100px; /* Espacio superior para evitar superposición con el menú fijo */
+}
+
+.nombre-animado {
+    animation: neon 1.5s ease-in-out infinite alternate; /* Animación de neón */
+}
+
+@keyframes neon {
+    from {
+        text
